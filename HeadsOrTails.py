@@ -9,7 +9,7 @@ player_in = True
 wins = 0
 
 if play.lower() == "yes":
-    buy_in = input("How much do you want to buy in for __  ")
+    buy_in = input("How much do you want to deposit __  ")
     if buy_in.isdigit():
         buy_in = int(buy_in)
         chip_count += buy_in
